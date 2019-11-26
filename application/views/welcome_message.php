@@ -11,15 +11,17 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-	<?php echo form_open(); ?>
-	<?php echo form_textarea(array(
-		"name"	=> "ckeditor1",
-		"id"	=> "ckeditor1",
-		"rows"	=> "10",
-		"cols"	=> "80"
-	)); ?>
-	<?php echo form_close(); ?>
+    <div class="container">
+      <h1>Hello, world!</h1>
+      <?php echo form_open(); ?>
+      <?php echo form_textarea(array(
+        "name"	=> "ckeditor1",
+        "id"	=> "ckeditor1",
+        "rows"	=> "10",
+        "cols"	=> "80"
+      )); ?>
+      <?php echo form_close(); ?>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
